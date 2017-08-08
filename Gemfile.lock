@@ -82,7 +82,7 @@ GEM
       rspec (>= 2.14)
       term-ansicolor (~> 1.0)
       thor
-    pact_broker (1.9.3)
+    pact_broker (1.9.4)
       haml
       httparty
       json

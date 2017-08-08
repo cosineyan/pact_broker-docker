@@ -87,8 +87,8 @@ RUN gem install find_a_port  -v '1.0.1'
 RUN gem install haml   -v '4.0.7'
 RUN gem install http_router   -v '0.11.2'
 
-COPY pact_broker-1.9.3.gem $APP_HOME/
-RUN gem install --local $APP_HOME/pact_broker-1.9.3.gem
+COPY pact_broker-1.9.4.gem $APP_HOME/
+RUN gem install --local $APP_HOME/pact_broker-1.9.4.gem
 
 ADD pact_broker/ $APP_HOME/
 RUN rm $APP_HOME/Gemfile.lock
